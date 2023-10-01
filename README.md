@@ -1,1 +1,1 @@
-# odin-recipes
+The website is for the first project from The Odin Project 'Foundations' and consists of a main index page which includes links to a few recipes, using only html.
