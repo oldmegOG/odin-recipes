@@ -1,18 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pasta Recipes</title>
-</head>
-<body>
-    <h1>Pasta Recipes</h1>
-    <img src="../odin-recipes/images/people-eating-pasta.jpg" alt="people-eating-pasta">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ducimus rem. Maxime id libero vero qui nemo hic consectetur, suscipit nesciunt velit aliquid odit quisquam consequuntur fugiat eos veniam saepe.</p>
-    <ul>
-        <li><a href="recipes/aglio-e-olio.html">Aglio e Olio</a></li>
-        <li><a href="recipes/carbonara.html">Carbonara</a></li>
-        <li><a href="recipes/puttanesca.html">Puttanesca</a></li>
-    </ul>
-</body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Home Page-->
+    <header>
+      <h1>Odin Pasta Recipes</h1>
+      <div class="nav-container">
+        <ul class="recipe-list">
+          <li><a href="recipes/aglio-e-olio.html">Aglio e Olio</a></li>
+          <li><a href="recipes/carbonara.html">Carbonara</a></li>
+          <li><a href="recipes/puttanesca.html">Puttanesca</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="recipe-grid">
+      <div class="recipe-card">
+        <img
+          src="/images/aglio-e-olio.jpg"
+          alt="Close up picture of a plate of aglio e olio pasta"
+        />
+        <div class="recipe-card-content">
+          <h3>Aglio E Olio</h3>
+          <p>
+            Pasta Aglio e Olio, originating from Naples, is the epitome of
+            Italian simplicity.
+          </p>
+          <a href="recipes/aglio-e-olio.html" class="view-recipe"
+            >View Recipe</a
+          >
+        </div>
+      </div>
+      <div class="recipe-card">
+        <img
+          src="/images/carbonara.jpg"
+          alt="Close up picture of a plate of pasta carbonara"
+        />
+        <div class="recipe-card-content">
+          <h3>Carbonara</h3>
+          <p>
+            Carbonara is a classic Roman dish beloved for its simplicity and
+            rich, comforting flavors.
+          </p>
+          <a href="recipes/carbonara.html" class="view-recipe">View Recipe</a>
+        </div>
+      </div>
+      <div class="recipe-card">
+        <img
+          src="/images/puttanesca.jpg"
+          alt="Close up picture of a plate of pasta puttanesca"
+        />
+        <div class="recipe-card-content">
+          <h3>Puttanesca</h3>
+          <p>
+            Pasta Puttanesca is a bold and flavorful dish hailing from the
+            Campania region.
+          </p>
+          <a href="recipes/puttanesca.html" class="view-recipe">View Recipe</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2025 Odin Pasta Recipes. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
